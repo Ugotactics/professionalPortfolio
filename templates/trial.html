@@ -1,0 +1,97 @@
+{% include 'header.html' %}
+
+  <body class="u-body u-xl-mode" data-lang="en">
+    <section class="u-align-center u-clearfix u-section-1" id="carousel_0852">
+      <div class="u-clearfix u-sheet u-valign-middle-md u-valign-middle-xl u-sheet-1">
+        <h2 class="u-text u-text-palette-2-base u-text-1"> Hello!</h2>
+          <div id="textwrap">
+        <h3 class="u-text u-text-2"> A Bit About Me</h3>
+        <p class="u-text u-text-3"><h4> I'm a Programmer. I work with databases and I am an experienced Backend engineer. I work particularly with Flask and Django.<p> I am also a Data analyst and also work on the front end part, Check out my work! </p></h4>
+        <p class="u-text u-text-palette-5-dark-2 u-text-4"><a href="/static/images/ugonna.png" class="u-border-1 u-border-active-palette-3-base u-border-black u-border-hover-palette-3-base u-border-no-left u-border-no-right u-border-no-top u-bottom-left-radius-0 u-bottom-right-radius-0 u-btn u-button-link u-button-style u-none u-radius-0 u-text-body-color u-top-left-radius-0 u-top-right-radius-0 u-btn-1" target="_blank"></a>
+        </p></div>
+        <div class="u-image u-image-circle u-image-1" alt="" data-image-width="541" data-image-height="527"></div>
+        <div class="u-align-center-lg u-align-center-md u-align-center-sm u-align-center-xl u-container-style u-expanded-width-lg u-expanded-width-md u-expanded-width-sm u-expanded-width-xs u-group u-shape-rectangle u-group-1">
+          <div class="u-container-layout u-valign-bottom-sm u-valign-middle-xs u-container-layout-1">
+            <div id="carousela" class="u-align-center u-border-2 u-border-palette-5-light-2 u-container-style u-group u-hover-feature u-palette-5-light-2 u-shape-circle u-group-2">
+              <div class="u-container-layout u-valign-middle u-container-layout-2">
+                <h5 class="u-hover-feature u-text u-text-default u-text-palette-1-base u-text-5">
+                  <a class="u-active-none u-border-none u-btn u-button-link u-button-style u-hover-none u-none u-text-palette-5-base u-btn-2" href="https://ugotactics.github.io/cv-project/"><h1>Resume</h1><br></a>
+                </h5>
+              </div>
+            </div>
+            <div id="carouselb" class="u-align-center u-border-2 u-border-palette-4-light-2 u-container-style u-group u-hover-feature u-palette-4-light-2 u-shape-circle u-group-3">
+              <div class="u-container-layout u-valign-middle u-container-layout-3">
+                <h5 class="u-hover-feature u-text u-text-default u-text-palette-2-base u-text-6">
+                  <a class="u-active-none u-border-none u-btn u-button-link u-button-style u-hover-none u-none u-text-palette-4-base u-btn-3" href="#skill">My Skills<br>
+                  </a>
+                </h5>
+              </div>
+            </div>
+            <div id="carouselc" class="u-align-center u-border-2 u-border-palette-3-light-2 u-container-style u-group u-hover-feature u-palette-3-light-2 u-shape-circle u-group-4">
+              <div class="u-container-layout u-valign-middle u-container-layout-4">
+                <h5 class="u-hover-feature u-text u-text-default u-text-palette-3-base u-text-7">
+                  <a class="u-active-none u-border-none u-btn u-button-link u-button-style u-hover-none u-none u-text-palette-3-base u-btn-4" href="{{url_for('contact')}}">Contacts</a>
+                </h5>
+              </div>
+            </div>
+            <div id="carouseld" class="u-align-center u-border-2 u-border-palette-2-light-2 u-container-style u-group u-hover-feature u-palette-2-light-2 u-shape-circle u-group-5">
+              <div class="u-container-layout u-valign-middle u-container-layout-5">
+                <h5 class="u-hover-feature u-text u-text-default u-text-palette-2-base u-text-8">
+                  <a class="u-active-none u-border-none u-btn u-button-link u-button-style u-hover-none u-none u-text-palette-2-base u-btn-5" href="{{url_for('projects')}}">Projects</a>
+                </h5>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <div id="skill">
+        <img width=120px src="static/images/ninjacode.png"><h2><u>My Skills</u></h2>
+
+            <table style="background-color:#A9CCE3">
+        <th><h3>Programming Tools</h3></th>
+        <th><h3>Logo</h3></th>
+        <th><h3>Description</h3></th>
+        <tr>
+            <div style="">
+                <td><h4>Languages</h4></td>
+                <td><img width=100px src="static/images/pythonlogo.png"> <img width=100px src="static/images/hjclogo.jpg"></td>
+                <td>I have worked extensively with Python in areas of Data Analysis and Game Development
+                  and I have worked with Javascript, HTML5 and CSS in web development.</td>
+            </div>
+        </tr>
+        <tr>
+            <div>
+                <td><h4>Frameworks</h4></td>
+                <td><img width=30px src="static/images/bootstraplogo.png">
+                  <img width=30px src="static/images/flasklogo.png"> <img width=60px src="static/images/jinjalogos.png"></td>
+                <td>I have worked with the above frameworks in my various projects. Flask and Jinja has been the basis of my backend projects</td>
+            </div>
+        </tr>
+        <tr>
+            <div>
+                <td><h4>Tools</h4></td>
+                <td><img width=60px src="static/images/beautifulsouplogo.png"> <img width=60px src="static/images/gitlogo.png">
+                  <img width=60px src="static/images/seleniumlogo.png"> <img width=60px src="static/images/jquerylogo.png"></td>
+                <td>I have worked with the above tools in my various projects, Especially in the areas of webscraping</td>
+            </div>
+        </tr>
+        <tr>
+            <div>
+                <td><h4>Databases</h4></td>
+                <td><img width=60px src="static/images/postgrelogo.png">  <img width=60px src="static/images/sqlitelogo.jpg">
+                </td>
+                <td>These databases are important if you are going to be working with flask and whilst postgreSQL is the most popular opensource database, I have worked with
+        Postgres when deploying a website to an external server and sqlite when working with a local server, I have extensive knowlede working w
+        ith both database</td>
+            </div>
+        </tr>
+
+    </table>
+        </div>
+
+    </section>
+
+      </body>
+
+{% include 'footer.html' %}

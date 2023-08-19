@@ -1,0 +1,33 @@
+{% include 'header.html' %}
+<body>
+<p id="getintouch"> <h2>Get in touch</h2>
+  	<div class="content" style="background-color:red, width:50%">
+							<form method="POST" action="/contact">
+                                {{ form.csrf_token }}
+                                {{ form.name.label(class_="customlabel") }}<br>
+                                {{ form.name(class_="customclass") }}<br>
+                                 {{ form.email.label(class_="customlabel") }}<br>
+                                     {{ form.email(class_="customclass")}}<br>
+                                 {{ form.message.label(class_="customlabel") }}<br>
+                                {{ form.message(class_="customclass")}}<br>
+                  <div> <p><button type="submit">Send Message</button> <a id="home" href="{{url_for('welcome_page')}}">Home</a>
+                </div>
+                                      {% with messages = get_flashed_messages() %}
+                            {% if messages %}
+                                {% for message in messages %}
+                                   <div style="color : #85929E">
+                                    <em>
+                                        {{ message }}
+                                 </em>
+                                </div>
+                            {% endfor %}
+                            {% endif %}
+                            {% endwith %}
+
+
+
+							</form>
+						</div>
+</body>
+
+{% include "footer.html" %}

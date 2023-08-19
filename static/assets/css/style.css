@@ -1,0 +1,907 @@
+body{
+text-align:center;
+-webkit-text-size-adjust: 100%;
+    box-sizing: border-box;
+    margin: 0;
+    height: auto;
+    min-height: 100%;
+    position: relative;
+    font-size: 1.5rem;
+    line-height: 1.5;
+    font-family: 'Open Sans',sans-serif;
+    color: #111111;
+    background-color:#d6dbdf;
+    }
+
+    h2{
+    text-align: center;
+    box-sizing: border-box;
+    font-family: Montserrat,sans-serif;
+    word-wrap: break-word;
+    position: relative;
+    color: #e37218 !important;
+    padding: 10px 0 0 0;
+    line-height: 1.1;
+    font-size: 4.0rem;
+    font-weight: 700;
+    margin: 10px 0 0 0;
+    width: auto;
+    pointer-events: initial;
+    }
+
+     h3{
+        -webkit-text-size-adjust: 100%;
+    text-align: center;
+    box-sizing: border-box;
+    color: #FF9933;
+    font-family: Montserrat,sans-serif;
+    font-weight: 450;
+    font-size: 1.9rem;
+    line-height: 1.2;
+    word-wrap: break-word;
+    position: relative;
+    padding: 0;
+    margin: 35px 0 10px 0;
+    width: auto;
+    pointer-events: initial;
+    }
+
+     h4{
+        -webkit-text-size-adjust: 100%;
+    text-align: center;
+    box-sizing: border-box;
+    color: inherit;
+    font-family: Montserrat,sans-serif;
+    font-weight: 450;
+    font-size: 1.3rem;
+    line-height: 1.0;
+    word-wrap: break-word;
+    position: relative;
+    padding: 0;
+    margin: 0 auto;
+    width: auto;
+    pointer-events: initial;
+    }
+
+
+    #carousel_0852 > div > p.u-text.u-text-3{
+            -webkit-text-size-adjust: 100%;
+    font-size: 1rem;
+    font-family: 'Open Sans',sans-serif;
+    color: #111111;
+    text-align: center;
+    box-sizing: border-box;
+    padding: 0;
+    word-wrap: break-word;
+    position: relative;
+    line-height: 2;
+    margin: 20px auto 0;
+    width: auto;
+    margin-left: 0;
+    margin-right: 0;
+    pointer-events: initial;
+    }
+
+    #carousel_0852 > div > div.u-image.u-image-circle.u-image-1{
+        -webkit-text-size-adjust: 100%;
+    font-size: 0.5rem;
+    line-height: 1.0;
+    font-family: 'Open Sans',sans-serif;
+    text-align: center;
+    box-sizing: border-box;
+    position: relative;
+    object-fit: cover;
+    display: block;
+    vertical-align: middle;
+    background-repeat: no-repeat;
+    color: #111111;
+    border-radius: 50% !important;
+    width: 176px;
+    height: 176px;
+    background-image: url("../../images/ugonna.png");
+    background-position: 50% 50%;
+    margin: 14px auto 0;
+    pointer-events: initial;
+    }
+
+    #carousel_0852 > div > div.u-align-center-lg.u-align-center-md.u-align-center-sm.u-align-center-xl.u-container-style.u-expanded-width-lg.u-expanded-width-md.u-expanded-width-sm.u-expanded-width-xs.u-group.u-shape-rectangle.u-group-1{
+        -webkit-text-size-adjust: 100%;
+    font-size: 1rem;
+    line-height: 1.6;
+
+    font-family: 'Open Sans',sans-serif;
+    color: #111111;
+
+    box-sizing: border-box;
+    position: relative;
+    width: 100% !important;
+    margin-left: 0;
+    margin-right: 0;
+    display: flex;
+    text-align: center;
+    margin: 14px auto 20px;
+    height: auto;
+    min-height: 250px;
+    margin-bottom: 10px;
+    pointer-events: initial;
+    }
+
+    #carousel_0852 > div > div.u-align-center-lg.u-align-center-md.u-align-center-sm.u-align-center-xl.u-container-style.u-expanded-width-lg.u-expanded-width-md.u-expanded-width-sm.u-expanded-width-xs.u-group.u-shape-rectangle.u-group-1 > div{
+        -webkit-text-size-adjust: 100%;
+    font-size: 1rem;
+    line-height: 1.6;
+
+    font-family: 'Open Sans',sans-serif;
+    color: #111111;
+
+    text-align: center;
+    pointer-events: initial;
+    box-sizing: border-box;
+    position: relative;
+    flex: 1;
+    max-width: 100%;
+    transition-duration: inherit;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    padding: 6px;
+    padding-left: 5px;
+    padding-right: 5px;
+    }
+
+    #carousel_0852 > div > div.u-align-center-lg.u-align-center-md.u-align-center-sm.u-align-center-xl.u-container-style.u-expanded-width-lg.u-expanded-width-md.u-expanded-width-sm.u-expanded-width-xs.u-group.u-shape-rectangle.u-group-1 > div > div.u-align-center.u-border-2.u-border-palette-5-light-2.u-container-style.u-group.u-hover-feature.u-palette-5-light-2.u-shape-circle.u-group-2{
+        -webkit-text-size-adjust: 100%;
+    font-size: 1rem;
+    line-height: 1.6;
+
+    font-family: 'Open Sans',sans-serif;
+
+    pointer-events: initial;
+    box-sizing: border-box;
+    display: flex;
+    border-radius: 50%;
+    text-align: center;
+    border-style: solid;
+    border-width: 2px;
+    color: #111111;
+    background-color: #b0e4e6;
+    border-color: #b0e4e6;
+    position: relative;
+    stroke: none;
+    background-size: cover;
+    background-position: 50% 50%;
+    background-repeat: no-repeat;
+    transition-duration: 0.5s;
+    margin: 0 auto;
+    height: 150px;
+    width: 150px;
+    min-height: 150px;
+    transition-property: fill, color, background-color, stroke-width, border-style, border-width, border-top-width, border-left-width, border-right-width, border-bottom-width, custom-border, borders, box-shadow, text-shadow, opacity, border-radius, stroke, border-color, font-size, font-style, font-weight, text-decoration, letter-spacing, transform, background-image, image-zoom, background-size, background-position;
+    }
+
+    #carousel_0852 > div > div.u-align-center-lg.u-align-center-md.u-align-center-sm.u-align-center-xl.u-container-style.u-expanded-width-lg.u-expanded-width-md.u-expanded-width-sm.u-expanded-width-xs.u-group.u-shape-rectangle.u-group-1 > div > div.u-align-center.u-border-2.u-border-palette-4-light-2.u-container-style.u-group.u-hover-feature.u-palette-4-light-2.u-shape-circle.u-group-3{
+        -webkit-text-size-adjust: 100%;
+    font-size: 1rem;
+    line-height: 1.6;
+
+    font-family: 'Open Sans',sans-serif;
+
+    pointer-events: initial;
+    box-sizing: border-box;
+    display: flex;
+    border-radius: 50%;
+    text-align: center;
+    border-style: solid;
+    border-width: 2px;
+    color: #111111;
+    background-color: #b5cae7;
+    border-color: #b5cae7;
+    position: relative;
+    stroke: none;
+    background-size: cover;
+    background-position: 50% 50%;
+    background-repeat: no-repeat;
+    transition-duration: 0.5s;
+    margin: 0 auto;
+    height: 150px;
+    width: 150px;
+    min-height: 150px;
+    transition-property: fill, color, background-color, stroke-width, border-style, border-width, border-top-width, border-left-width, border-right-width, border-bottom-width, custom-border, borders, box-shadow, text-shadow, opacity, border-radius, stroke, border-color, font-size, font-style, font-weight, text-decoration, letter-spacing, transform, background-image, image-zoom, background-size, background-position;
+    }
+
+    #carousel_0852 > div > div.u-align-center-lg.u-align-center-md.u-align-center-sm.u-align-center-xl.u-container-style.u-expanded-width-lg.u-expanded-width-md.u-expanded-width-sm.u-expanded-width-xs.u-group.u-shape-rectangle.u-group-1 > div > div.u-align-center.u-border-2.u-border-palette-3-light-2.u-container-style.u-group.u-hover-feature.u-palette-3-light-2.u-shape-circle.u-group-4{
+        -webkit-text-size-adjust: 100%;
+    font-size: 1rem;
+    line-height: 1.6;
+
+    font-family: 'Open Sans',sans-serif;
+
+    pointer-events: initial;
+    box-sizing: border-box;
+    display: flex;
+    border-radius: 50%;
+    text-align: center;
+    border-style: solid;
+    border-width: 2px;
+    color: #111111;
+    background-color: #f5adc3;
+    border-color: #f5adc3;
+    position: relative;
+    stroke: none;
+    background-size: cover;
+    background-position: 50% 50%;
+    background-repeat: no-repeat;
+    transition-duration: 0.5s;
+    margin: 0 auto;
+    height: 150px;
+    width: 150px;
+    min-height: 150px;
+    transition-property: fill, color, background-color, stroke-width, border-style, border-width, border-top-width, border-left-width, border-right-width, border-bottom-width, custom-border, borders, box-shadow, text-shadow, opacity, border-radius, stroke, border-color, font-size, font-style, font-weight, text-decoration, letter-spacing, transform, background-image, image-zoom, background-size, background-position;
+    }
+
+       #carousel_0852 > div > div.u-align-center-lg.u-align-center-md.u-align-center-sm.u-align-center-xl.u-container-style.u-expanded-width-lg.u-expanded-width-md.u-expanded-width-sm.u-expanded-width-xs.u-group.u-shape-rectangle.u-group-1 > div > div.u-align-center.u-border-2.u-border-palette-3-light-2.u-container-style.u-group.u-hover-feature.u-palette-3-light-2.u-shape-circle.u-group-4{
+        -webkit-text-size-adjust: 100%;
+    font-size: 1rem;
+    line-height: 1.6;
+
+    font-family: 'Open Sans',sans-serif;
+
+    pointer-events: initial;
+    box-sizing: border-box;
+    display: flex;
+    border-radius: 50%;
+    text-align: center;
+    border-style: solid;
+    border-width: 2px;
+    color: #111111;
+    background-color: #f5adc3;
+    border-color: #f5adc3;
+    position: relative;
+    stroke: none;
+    background-size: cover;
+    background-position: 50% 50%;
+    background-repeat: no-repeat;
+    transition-duration: 0.5s;
+    margin: 0 auto;
+    height: 150px;
+    width: 150px;
+    min-height: 150px;
+    transition-property: fill, color, background-color, stroke-width, border-style, border-width, border-top-width, border-left-width, border-right-width, border-bottom-width, custom-border, borders, box-shadow, text-shadow, opacity, border-radius, stroke, border-color, font-size, font-style, font-weight, text-decoration, letter-spacing, transform, background-image, image-zoom, background-size, background-position;
+    }
+
+
+    #carousel_0852 > div > div.u-align-center-lg.u-align-center-md.u-align-center-sm.u-align-center-xl.u-container-style.u-expanded-width-lg.u-expanded-width-md.u-expanded-width-sm.u-expanded-width-xs.u-group.u-shape-rectangle.u-group-1 > div > div.u-align-center.u-border-2.u-border-palette-2-light-2.u-container-style.u-group.u-hover-feature.u-palette-2-light-2.u-shape-circle.u-group-5{
+        -webkit-text-size-adjust: 100%;
+    font-size: 1rem;
+    line-height: 1.6;
+
+    font-family: 'Open Sans',sans-serif;
+
+    pointer-events: initial;
+    box-sizing: border-box;
+    display: flex;
+    border-radius: 50%;
+    text-align: center;
+    border-style: solid;
+    border-width: 2px;
+    color: #111111;
+    background-color: #f4c39d;
+    border-color: #f4c39d;
+    position: relative;
+    stroke: none;
+    background-size: cover;
+    background-position: 50% 50%;
+    background-repeat: no-repeat;
+    transition-duration: 0.5s;
+    margin: 0 auto;
+    height: 150px;
+    width: 150px;
+    min-height: 150px;
+    transition-property: fill, color, background-color, stroke-width, border-style, border-width, border-top-width, border-left-width, border-right-width, border-bottom-width, custom-border, borders, box-shadow, text-shadow, opacity, border-radius, stroke, border-color, font-size, font-style, font-weight, text-decoration, letter-spacing, transform, background-image, image-zoom, background-size, background-position;
+    }
+
+    #carousel_0852 > div > div.u-align-center-lg.u-align-center-md.u-align-center-sm.u-align-center-xl.u-container-style.u-expanded-width-lg.u-expanded-width-md.u-expanded-width-sm.u-expanded-width-xs.u-group.u-shape-rectangle.u-group-1 > div > div.u-align-center.u-border-2.u-border-palette-5-light-2.u-container-style.u-group.u-hover-feature.u-palette-5-light-2.u-shape-circle.u-group-2 > div{
+        -webkit-text-size-adjust: 100%;
+    font-size: 1rem;
+    line-height: 1.6;
+
+       #carousel_0852 > div > div.u-align-center-lg.u-align-center-md.u-align-center-sm.u-align-center-xl.u-container-style.u-expanded-width-lg.u-expanded-width-md.u-expanded-width-sm.u-expanded-width-xs.u-group.u-shape-rectangle.u-group-1 > div > div.u-align-center.u-border-2.u-border-palette-2-light-2.u-container-style.u-group.u-hover-feature.u-palette-2-light-2.u-shape-circle.u-group-5{
+        -webkit-text-size-adjust: 100%;
+    font-size: 1rem;
+    line-height: 1.6;
+
+    font-family: 'Open Sans',sans-serif;
+
+    pointer-events: initial;
+    box-sizing: border-box;
+    display: flex;
+    border-radius: 50%;
+    text-align: center;
+    border-style: solid;
+    border-width: 2px;
+    color: #111111;
+    background-color: #f4c39d;
+    border-color: #f4c39d;
+    position: relative;
+    stroke: none;
+    background-size: cover;
+    background-position: 50% 50%;
+    background-repeat: no-repeat;
+    transition-duration: 0.5s;
+    margin: 0 auto;
+    height: 150px;
+    width: 150px;
+    min-height: 150px;
+    transition-property: fill, color, background-color, stroke-width, border-style, border-width, border-top-width, border-left-width, border-right-width, border-bottom-width, custom-border, borders, box-shadow, text-shadow, opacity, border-radius, stroke, border-color, font-size, font-style, font-weight, text-decoration, letter-spacing, transform, background-image, image-zoom, background-size, background-position;
+    }
+
+    font-family: 'Open Sans',sans-serif;
+    text-align: center;
+    color: #111111;
+    stroke: none;
+    box-sizing: border-box;
+    position: relative;
+    flex: 1;
+    max-width: 100%;
+    transition-duration: inherit;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    border-radius: 50%;
+    padding-top: 0;
+    padding-bottom: 0;
+    }
+
+    #carousel_0852 > div > div.u-align-center-lg.u-align-center-md.u-align-center-sm.u-align-center-xl.u-container-style.u-expanded-width-lg.u-expanded-width-md.u-expanded-width-sm.u-expanded-width-xs.u-group.u-shape-rectangle.u-group-1 > div > div.u-align-center.u-border-2.u-border-palette-5-light-2.u-container-style.u-group.u-hover-feature.u-palette-5-light-2.u-shape-circle.u-group-2 > div > h5 > a{
+        -webkit-text-size-adjust: 100%;
+    cursor: pointer;
+    font-weight: inherit;
+    border: 0 none transparent;
+    outline-width: 0;
+    margin: 0;
+    font-style: initial;
+    user-select: none;
+    border-radius: 0;
+    align-self: flex-start;
+    border-width: 0 !important;
+    border-style: solid;
+    font-size: inherit;
+    font-family: inherit;
+    line-height: inherit;
+    letter-spacing: inherit;
+    text-transform: inherit;
+    stroke: none;
+    margin-top: 0;
+    margin-bottom: 0;
+    vertical-align: baseline;
+    white-space: normal;
+    text-align: inherit;
+    background-color: transparent !important;
+    border-color: transparent !important;
+    background-image: none;
+    padding: 0;
+    display: inline;
+    color: #4fbdc0 !important;
+    text-decoration: none;
+    }
+
+    #carousel_0852 > div > div.u-align-center-lg.u-align-center-md.u-align-center-sm.u-align-center-xl.u-container-style.u-expanded-width-lg.u-expanded-width-md.u-expanded-width-sm.u-expanded-width-xs.u-group.u-shape-rectangle.u-group-1 > div > div.u-align-center.u-border-2.u-border-palette-5-light-2.u-container-style.u-group.u-hover-feature.u-palette-5-light-2.u-shape-circle.u-group-2 > div{
+        -webkit-text-size-adjust: 100%;
+    font-size: 1rem;
+    line-height: 1.6;
+
+    font-family: 'Open Sans',sans-serif;
+
+    pointer-events: initial;
+    text-align: center;
+    color: #111111;
+    stroke: none;
+    box-sizing: border-box;
+    position: relative;
+    flex: 1;
+    max-width: 100%;
+    transition-duration: inherit;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    border-radius: 50%;
+    padding-top: 0;
+    padding-bottom: 0;
+    }
+
+
+    #carousel_0852 > div > div.u-align-center-lg.u-align-center-md.u-align-center-sm.u-align-center-xl.u-container-style.u-expanded-width-lg.u-expanded-width-md.u-expanded-width-sm.u-expanded-width-xs.u-group.u-shape-rectangle.u-group-1 > div > div.u-align-center.u-border-2.u-border-palette-5-light-2.u-container-style.u-group.u-hover-feature.u-palette-5-light-2.u-shape-circle.u-group-2 > div{
+        -webkit-text-size-adjust: 100%;
+    font-size: 1rem;
+    line-height: 1.6;
+
+    font-family: 'Open Sans',sans-serif;
+
+    pointer-events: initial;
+    text-align: center;
+    color: #111111;
+    stroke: none;
+    box-sizing: border-box;
+    position: relative;
+    flex: 1;
+    max-width: 100%;
+    transition-duration: inherit;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    border-radius: 50%;
+    padding-top: 0;
+    padding-bottom: 0;
+    margin: 0 auto 0 auto;
+    }
+
+    #carousel_0852 > div > div.u-align-center-lg.u-align-center-md.u-align-center-sm.u-align-center-xl.u-container-style.u-expanded-width-lg.u-expanded-width-md.u-expanded-width-sm.u-expanded-width-xs.u-group.u-shape-rectangle.u-group-1 > div > div.u-align-center.u-border-2.u-border-palette-4-light-2.u-container-style.u-group.u-hover-feature.u-palette-4-light-2.u-shape-circle.u-group-3 > div{
+        -webkit-text-size-adjust: 100%;
+    font-size: 1rem;
+    line-height: 1.6;
+
+    font-family: 'Open Sans',sans-serif;
+    pointer-events: initial;
+    text-align: center;
+    color: #111111;
+    stroke: none;
+    box-sizing: border-box;
+    position: relative;
+    flex: 1;
+    max-width: 100%;
+    transition-duration: inherit;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    border-radius: 50%;
+    padding-top: 0;
+    padding-bottom: 0;
+    }
+
+    #carousel_0852 > div > div.u-align-center-lg.u-align-center-md.u-align-center-sm.u-align-center-xl.u-container-style.u-expanded-width-lg.u-expanded-width-md.u-expanded-width-sm.u-expanded-width-xs.u-group.u-shape-rectangle.u-group-1 > div > div.u-align-center.u-border-2.u-border-palette-4-light-2.u-container-style.u-group.u-hover-feature.u-palette-4-light-2.u-shape-circle.u-group-3 > div > h5{
+        -webkit-text-size-adjust: 100%;
+
+    pointer-events: initial;
+    text-align: center;
+    stroke: none;
+    box-sizing: border-box;
+    font-family: Montserrat,sans-serif;
+    font-size: 1.25rem;
+    line-height: 1.2;
+    display: table;
+    align-self: flex-start;
+    width: fit-content;
+    flex-shrink: 0;
+    word-wrap: break-word;
+    color: #e37218 !important;
+    padding: 0;
+    position: relative;
+    transition-duration: 0.5s;
+    letter-spacing: 1px;
+    font-weight: 500;
+    margin: 0 auto;
+    transition-property: fill, color, background-color, stroke-width, border-style, border-width, border-top-width, border-left-width, border-right-width, border-bottom-width, custom-border, borders, box-shadow, text-shadow, opacity, border-radius, stroke, border-color, font-size, font-style, font-weight, text-decoration, letter-spacing, transform, background-image, image-zoom, background-size, background-position;
+    }
+
+    #carousel_0852 > div > div.u-align-center-lg.u-align-center-md.u-align-center-sm.u-align-center-xl.u-container-style.u-expanded-width-lg.u-expanded-width-md.u-expanded-width-sm.u-expanded-width-xs.u-group.u-shape-rectangle.u-group-1 > div > div.u-align-center.u-border-2.u-border-palette-4-light-2.u-container-style.u-group.u-hover-feature.u-palette-4-light-2.u-shape-circle.u-group-3 > div > h5 > a{
+        -webkit-text-size-adjust: 100%;
+
+    pointer-events: initial;
+    word-wrap: break-word;
+    box-sizing: border-box;
+    cursor: pointer;
+    font-weight: inherit;
+    border: 0 none transparent;
+    outline-width: 0;
+    margin: 0;
+    font-style: initial;
+    user-select: none;
+    border-radius: 0;
+    align-self: flex-start;
+    border-width: 0 !important;
+    border-style: solid;
+    font-size: inherit;
+    font-family: inherit;
+    line-height: inherit;
+    letter-spacing: inherit;
+    text-transform: inherit;
+    stroke: none;
+    margin-top: 0;
+    margin-bottom: 0;
+    vertical-align: baseline;
+    white-space: normal;
+    text-align: inherit;
+    background-color: transparent !important;
+    border-color: transparent !important;
+    background-image: none;
+    padding: 0;
+    display: inline;
+    color: #5985c3 !important;
+    text-decoration: none;
+    }
+
+    #carousel_0852 > div > div.u-align-center-lg.u-align-center-md.u-align-center-sm.u-align-center-xl.u-container-style.u-expanded-width-lg.u-expanded-width-md.u-expanded-width-sm.u-expanded-width-xs.u-group.u-shape-rectangle.u-group-1 > div > div.u-align-center.u-border-2.u-border-palette-4-light-2.u-container-style.u-group.u-hover-feature.u-palette-4-light-2.u-shape-circle.u-group-3 > div > h5 > a{
+        -webkit-text-size-adjust: 100%;
+
+    pointer-events: initial;
+    word-wrap: break-word;
+    box-sizing: border-box;
+    cursor: pointer;
+    font-weight: inherit;
+    border: 0 none transparent;
+    outline-width: 0;
+    margin: 0;
+    font-style: initial;
+    user-select: none;
+    border-radius: 0;
+    align-self: flex-start;
+    border-width: 0 !important;
+    border-style: solid;
+    font-size: inherit;
+    font-family: inherit;
+    line-height: inherit;
+    letter-spacing: inherit;
+    text-transform: inherit;
+    stroke: none;
+    margin-top: 0;
+    margin-bottom: 0;
+    vertical-align: baseline;
+    white-space: normal;
+    text-align: inherit;
+    background-color: transparent !important;
+    border-color: transparent !important;
+    background-image: none;
+    padding: 0;
+    display: inline;
+    color: #5985c3 !important;
+    text-decoration: none;
+    }
+
+    #carousel_0852 > div > div.u-align-center-lg.u-align-center-md.u-align-center-sm.u-align-center-xl.u-container-style.u-expanded-width-lg.u-expanded-width-md.u-expanded-width-sm.u-expanded-width-xs.u-group.u-shape-rectangle.u-group-1 > div > div.u-align-center.u-border-2.u-border-palette-3-light-2.u-container-style.u-group.u-hover-feature.u-palette-3-light-2.u-shape-circle.u-group-4 > div{
+        -webkit-text-size-adjust: 100%;
+    font-size: 1rem;
+    line-height: 1.6;
+
+    font-family: 'Open Sans',sans-serif;
+
+    pointer-events: initial;
+    text-align: center;
+    color: #111111;
+    stroke: none;
+    box-sizing: border-box;
+    position: relative;
+    flex: 1;
+    max-width: 100%;
+    transition-duration: inherit;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    border-radius: 50%;
+    padding-top: 0;
+    padding-bottom: 0;
+    }
+
+
+    #carousel_0852 > div > div.u-align-center-lg.u-align-center-md.u-align-center-sm.u-align-center-xl.u-container-style.u-expanded-width-lg.u-expanded-width-md.u-expanded-width-sm.u-expanded-width-xs.u-group.u-shape-rectangle.u-group-1 > div > div.u-align-center.u-border-2.u-border-palette-3-light-2.u-container-style.u-group.u-hover-feature.u-palette-3-light-2.u-shape-circle.u-group-4 > div > h5{
+        -webkit-text-size-adjust: 100%;
+
+    pointer-events: initial;
+    text-align: center;
+    stroke: none;
+    box-sizing: border-box;
+    font-family: Montserrat,sans-serif;
+    font-size: 1.25rem;
+    line-height: 1.2;
+    display: table;
+    align-self: flex-start;
+    width: fit-content;
+    flex-shrink: 0;
+    word-wrap: break-word;
+    color: #e73d71 !important;
+    padding: 0;
+    position: relative;
+    transition-duration: 0.5s;
+    letter-spacing: 1px;
+    font-weight: 500;
+    margin: 0 auto;
+    transition-property: fill, color, background-color, stroke-width, border-style, border-width, border-top-width, border-left-width, border-right-width, border-bottom-width, custom-border, borders, box-shadow, text-shadow, opacity, border-radius, stroke, border-color, font-size, font-style, font-weight, text-decoration, letter-spacing, transform, background-image, image-zoom, background-size, background-position;
+    }
+
+    #carousel_0852 > div > div.u-align-center-lg.u-align-center-md.u-align-center-sm.u-align-center-xl.u-container-style.u-expanded-width-lg.u-expanded-width-md.u-expanded-width-sm.u-expanded-width-xs.u-group.u-shape-rectangle.u-group-1 > div > div.u-align-center.u-border-2.u-border-palette-3-light-2.u-container-style.u-group.u-hover-feature.u-palette-3-light-2.u-shape-circle.u-group-4 > div > h5 > a{
+        -webkit-text-size-adjust: 100%;
+
+    pointer-events: initial;
+    word-wrap: break-word;
+    box-sizing: border-box;
+    cursor: pointer;
+    font-weight: inherit;
+    border: 0 none transparent;
+    outline-width: 0;
+    margin: 0;
+    font-style: initial;
+    user-select: none;
+    border-radius: 0;
+    align-self: flex-start;
+    border-width: 0 !important;
+    border-style: solid;
+    font-size: inherit;
+    font-family: inherit;
+    line-height: inherit;
+    letter-spacing: inherit;
+    text-transform: inherit;
+    stroke: none;
+    margin-top: 0;
+    margin-bottom: 0;
+    vertical-align: baseline;
+    white-space: normal;
+    text-align: inherit;
+    background-color: transparent !important;
+    border-color: transparent !important;
+    background-image: none;
+    padding: 0;
+    display: inline;
+    color: #e73d71 !important;
+    text-decoration: none;
+    }
+
+    #carousel_0852 > div > div.u-align-center-lg.u-align-center-md.u-align-center-sm.u-align-center-xl.u-container-style.u-expanded-width-lg.u-expanded-width-md.u-expanded-width-sm.u-expanded-width-xs.u-group.u-shape-rectangle.u-group-1 > div > div.u-align-center.u-border-2.u-border-palette-2-light-2.u-container-style.u-group.u-hover-feature.u-palette-2-light-2.u-shape-circle.u-group-5 > div{
+        -webkit-text-size-adjust: 100%;
+    font-size: 1rem;
+    line-height: 1.6;
+
+    font-family: 'Open Sans',sans-serif;
+
+    text-align: center;
+    color: #111111;
+    stroke: none;
+    box-sizing: border-box;
+    position: relative;
+    flex: 1;
+    max-width: 100%;
+    transition-duration: inherit;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    border-radius: 50%;
+    padding-top: 0;
+    padding-bottom: 0;
+    }
+
+    #carousel_0852 > div > div.u-align-center-lg.u-align-center-md.u-align-center-sm.u-align-center-xl.u-container-style.u-expanded-width-lg.u-expanded-width-md.u-expanded-width-sm.u-expanded-width-xs.u-group.u-shape-rectangle.u-group-1 > div > div.u-align-center.u-border-2.u-border-palette-2-light-2.u-container-style.u-group.u-hover-feature.u-palette-2-light-2.u-shape-circle.u-group-5 > div > h5{
+        -webkit-text-size-adjust: 100%;
+
+    pointer-events: initial;
+    text-align: center;
+    stroke: none;
+    box-sizing: border-box;
+    font-family: Montserrat,sans-serif;
+    font-size: 1.25rem;
+    line-height: 1.2;
+    display: table;
+    align-self: flex-start;
+    width: fit-content;
+    flex-shrink: 0;
+    word-wrap: break-word;
+    color: #e37218 !important;
+    padding: 0;
+    position: relative;
+    transition-duration: 0.5s;
+    letter-spacing: 1px;
+    font-weight: 500;
+    margin: 0 auto;
+    transition-property: fill, color, background-color, stroke-width, border-style, border-width, border-top-width, border-left-width, border-right-width, border-bottom-width, custom-border, borders, box-shadow, text-shadow, opacity, border-radius, stroke, border-color, font-size, font-style, font-weight, text-decoration, letter-spacing, transform, background-image, image-zoom, background-size, background-position;
+    }
+
+    #carousel_0852 > div > div.u-align-center-lg.u-align-center-md.u-align-center-sm.u-align-center-xl.u-container-style.u-expanded-width-lg.u-expanded-width-md.u-expanded-width-sm.u-expanded-width-xs.u-group.u-shape-rectangle.u-group-1 > div > div.u-align-center.u-border-2.u-border-palette-2-light-2.u-container-style.u-group.u-hover-feature.u-palette-2-light-2.u-shape-circle.u-group-5 > div > h5 > a{
+        -webkit-text-size-adjust: 100%;
+    pointer-events: initial;
+    word-wrap: break-word;
+    box-sizing: border-box;
+    cursor: pointer;
+    font-weight: inherit;
+    border: 0 none transparent;
+    outline-width: 0;
+    margin: 0;
+    font-style: initial;
+    user-select: none;
+    border-radius: 0;
+    align-self: flex-start;
+    border-width: 0 !important;
+    border-style: solid;
+    font-size: inherit;
+    font-family: inherit;
+    line-height: inherit;
+    letter-spacing: inherit;
+    text-transform: inherit;
+    stroke: none;
+    margin-top: 0;
+    margin-bottom: 0;
+    vertical-align: baseline;
+    white-space: normal;
+    text-align: inherit;
+    background-color: transparent !important;
+    border-color: transparent !important;
+    background-image: none;
+    padding: 0;
+    display: inline;
+    color: #e37218 !important;
+    text-decoration: none;
+    }
+
+    #carousel_0852 > div > div.u-align-center-lg.u-align-center-md.u-align-center-sm.u-align-center-xl.u-container-style.u-expanded-width-lg.u-expanded-width-md.u-expanded-width-sm.u-expanded-width-xs.u-group.u-shape-rectangle.u-group-1 > div > div.u-align-center.u-border-2.u-border-palette-5-light-2.u-container-style.u-group.u-hover-feature.u-palette-5-light-2.u-shape-circle.u-group-2 > div > h5 > a{
+        -webkit-text-size-adjust: 100%;
+    pointer-events: initial;
+    word-wrap: break-word;
+    box-sizing: border-box;
+    cursor: pointer;
+    font-weight: inherit;
+    border: 0 none transparent;
+    outline-width: 0;
+    margin: 0;
+    font-style: initial;
+    user-select: none;
+    border-radius: 0;
+    align-self: flex-start;
+    border-width: 0 !important;
+    border-style: solid;
+    font-size: inherit;
+    font-family: inherit;
+    line-height: inherit;
+    letter-spacing: inherit;
+    text-transform: inherit;
+    stroke: none;
+    margin-top: 0;
+    margin-bottom: 0;
+    vertical-align: baseline;
+    white-space: normal;
+    text-align: inherit;
+    background-color: transparent !important;
+    border-color: transparent !important;
+    background-image: none;
+    padding: 0;
+    display: inline;
+    color: #4fbdc0 !important;
+    text-decoration: none;
+    }
+
+    #text{
+    height:94;
+    width:24
+    }
+
+#textwrap{
+text-align: center !important;
+width: 40%;
+margin: auto;
+vertical-align: middle;
+padding:5px;
+}
+
+#carousel_0852 > div > div.u-align-center-lg.u-align-center-md.u-align-center-sm.u-align-center-xl.u-container-style.u-expanded-width-lg.u-expanded-width-md.u-expanded-width-sm.u-expanded-width-xs.u-group.u-shape-rectangle.u-group-1 > div{
+margin: 0, auto, 0, auto;
+verical-align: middle;
+text-align:center;
+}
+
+#skills{
+margin: auto;
+vertical-align:middle;
+width: 50%;
+text-align:center;
+margin-bottom: 150px
+}
+
+form .form-group:first-child .floating-label-form-group {
+  border-top: 1px solid #dee2e6;}
+
+#getintouch{
+padding: 5px 0;
+
+}
+
+.content{
+position:relative;
+width:100%;
+text-align:left;
+vertical-align:middle;
+margin-left: 35%;
+}
+
+.customclass{
+position:relative;
+width:400px;
+height:150px
+margin-bottom: 80px;
+border-radius: 8px;
+background-color: #f2f4f4;
+padding:10px;
+}
+
+.customlabel{
+font-size: 1.2rem;
+font-weight:500;
+font-family: 'Open Sans',sans-serif;
+ background-color: transparent;
+}
+
+#message{
+height:200;
+
+}
+
+
+body > div > form > div > p > button{
+ background-color: #85c1e9;
+ font_size:1.1rem !important;
+ font-weight:400;
+ margin-right:28px;
+ width:150px;
+ height:45px;
+ border-radius: 10px;
+}
+
+body > div > form > div > p > button:hover{
+background-color:#A9CCE3
+}
+
+body > div > form > div > p > button:active{
+background-color:#2874A6
+}
+
+#home{
+color:#e37218;
+ font_size:1.1rem;
+ font-weight:400;
+ padding:5px;
+ margin-left:18px;
+ width:30%;
+ height:15%;
+ border-radius: 10px;
+ text-align:left !important;
+ position:relative;
+text-decoration: none;
+}
+
+#home:hover{
+color:#E59866;
+}
+
+#home:active{
+background-color:#A04000;
+}
+
+table{
+width:100%;
+}
+
+td{
+position:relative;
+border:1px solid black;
+padding:10px;
+border-radius: 10px;
+background-color:#A9DFBF;
+min-width:20%;
+}
+
+th {
+ background-color:#82E0AA;
+ border-radius: 10px;
+ font-size:1.7rem;
+ font-weight:600;
+ line-height:1.7;
+ padding:30px;
+ min-height:25%;
+ min-width:35%;
+ }
+
+ #skill > table{
+ background-color:#A9CCE3;
+ width:75%;
+ margin-left:10%;
+ }
+
+  #textwrap > h4{
+  padding:27px;
+ border-radius:50px;
+ background-color:#CCD1D1;
+ }
