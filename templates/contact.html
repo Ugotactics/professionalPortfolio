@@ -9,6 +9,7 @@
   	<div class="content">
        <form method="POST" action="/contact">
     {{ form.hidden_tag() }}
+           {{ form.csrf_token }}
     {{ form.name.label(class='customlabel') }}
    {{ form.name(size=20, class='customclass') }}
 
@@ -34,6 +35,7 @@
 
 						</div>
     </section>
+    <div style="font-weight:200; color:grey"><h4> You can reach me on 09070681389<br>Gmail:ogokeugonna@gmail.com</h4></div>
 </body>
 
 {% include "footer.html" %}
