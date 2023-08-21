@@ -1,17 +1,25 @@
 {% include 'header.html' %}
-<body>
+
+
+<body style="background-color:#D5DBDB">
 <p id="getintouch"> <h2>Get in touch</h2>
-  	<div class="content" style="background-color:red, width:50%">
-							<form method="POST" action="/contact">
-                                {{ form.csrf_token }}
-                                {{ form.name.label(class_="customlabel") }}<br>
-                                {{ form.name(class_="customclass") }}<br>
-                                 {{ form.email.label(class_="customlabel") }}<br>
-                                     {{ form.email(class_="customclass")}}<br>
-                                 {{ form.message.label(class_="customlabel") }}<br>
-                                {{ form.message(class_="customclass")}}<br>
-                  <div> <p><button type="submit">Send Message</button> <a id="home" href="{{url_for('welcome_page')}}">Home</a>
-                </div>
+
+<section>
+    <div id="formclass">
+  	<div class="content">
+       <form method="POST" action="/contact">
+    {{ form.hidden_tag() }}
+    {{ form.name.label(class='customlabel') }}
+   {{ form.name(size=20, class='customclass') }}
+
+            {{ form.email.label(class='customlabel') }}
+   {{ form.email(size=20, class='customclass') }}
+
+            {{ form.message.label(class='customlabel') }}
+   {{ form.message(size=20, class='customclass') }}
+    <p> <input id="button" type="submit" value="Send Message"> <a id="home" href="{{ url_for('welcome_page') }}">Home</a>
+</form></div>
+
                                       {% with messages = get_flashed_messages() %}
                             {% if messages %}
                                 {% for message in messages %}
@@ -24,10 +32,8 @@
                             {% endif %}
                             {% endwith %}
 
-
-
-							</form>
 						</div>
+    </section>
 </body>
 
 {% include "footer.html" %}

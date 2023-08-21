@@ -2,6 +2,7 @@ import os
 import smtplib
 from flask import Flask, render_template, redirect, flash, url_for
 from myforms import MyForm
+from flask_bootstrap import Bootstrap
 import datetime as dt
 import time
 from flask_wtf import CSRFProtect
@@ -12,13 +13,14 @@ app = Flask(__name__)
 app.app_context().push()
 app.config['SECRET_KEY'] = os.environ.get("SECRET_KEY")
 csrf = CSRFProtect(app)
+Bootstrap(app)
 
 ugo = 'Welcome.I am Ugonna Ogoke\nA backend developer and a Data Analyst'
 
 
 @app.route("/")
 def welcome_page():
-    return render_template("trial.html", year=year, ugo=ugo, time=time)
+    return render_template("index.html", year=year, ugo=ugo, time=time)
 
 
 my_email = "anthonyugonnaa@gmail.com"

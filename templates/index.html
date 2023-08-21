@@ -1,187 +1,81 @@
-{% include "header.html" %}
-<html>
+{% include 'header.html' %}
 
-	<body class="is-preload">
+  <body style="background-color:#D5DBDB"  class="u-body u-xl-mode" data-lang="en">
+    <div class="u-align-center u-clearfix u-section-1" id="carousel_0852">
+      <div class="u-clearfix u-sheet u-valign-middle-md u-valign-middle-xl u-sheet-1">
+        <h2 class="u-text u-text-palette-2-base u-text-1"> Hello!</h2>
+          <div id="textwrap">
+        <h3 class="u-text u-text-2"> A Bit About Me</h3><br>
+            <div style="text-align:center" id="textwraps"><h4> I'm a Programmer. I work with databases and I am an experienced Backend engineer. I work particularly with Flask and Django.<p> I am also a Data analyst and also work on the front end part, Check out my work! </p></h4></div>
+        <p class="u-text u-text-palette-5-dark-2 u-text-4"><a href="/static/images/ugonna.png" class="u-border-1 u-border-active-palette-3-base u-border-black u-border-hover-palette-3-base u-border-no-left u-border-no-right u-border-no-top u-bottom-left-radius-0 u-bottom-right-radius-0 u-btn u-button-link u-button-style u-none u-radius-0 u-text-body-color u-top-left-radius-0 u-top-right-radius-0 u-btn-1" target="_blank"></a>
+        </p></div>
+        <div class="u-image u-image-circle u-image-1" alt="" data-image-width="541" data-image-height="527"></div>
+        <div class="u-align-center-lg u-align-center-md u-align-center-sm u-align-center-xl u-container-style u-expanded-width-lg u-expanded-width-md u-expanded-width-sm u-expanded-width-xs u-group u-shape-rectangle u-group-1">
+          <div class="u-container-layout u-valign-bottom-sm u-valign-middle-xs u-container-layout-1">
+            <div id="carousela" class="u-align-center u-border-2 u-border-palette-5-light-2 u-container-style u-group u-hover-feature u-palette-5-light-2 u-shape-circle u-group-2">
+              <div class="u-container-layout u-valign-middle u-container-layout-2">
+                <h5 class="u-hover-feature u-text u-text-default u-text-palette-1-base u-text-5">
+                  <a class="u-active-none u-border-none u-btn u-button-link u-button-style u-hover-none u-none u-text-palette-5-base u-btn-2" href="https://ugotactics.github.io/cv-project/"><h4>Resume</h4><br></a>
+                </h5>
+              </div>
+            </div>
+            <div id="carouselb" class="u-align-center u-border-2 u-border-palette-4-light-2 u-container-style u-group u-hover-feature u-palette-4-light-2 u-shape-circle u-group-3">
+              <div class="u-container-layout u-valign-middle u-container-layout-3">
+                <h5 class="u-hover-feature u-text u-text-default u-text-palette-2-base u-text-6">
+                  <a class="u-active-none u-border-none u-btn u-button-link u-button-style u-hover-none u-none u-text-palette-4-base u-btn-3" href="#skill">My Skills<br>
+                  </a>
+                </h5>
+              </div>
+            </div>
+            <div id="carouselc" class="u-align-center u-border-2 u-border-palette-3-light-2 u-container-style u-group u-hover-feature u-palette-3-light-2 u-shape-circle u-group-4">
+              <div class="u-container-layout u-valign-middle u-container-layout-4">
+                <h5 class="u-hover-feature u-text u-text-default u-text-palette-3-base u-text-7">
+                  <a class="u-active-none u-border-none u-btn u-button-link u-button-style u-hover-none u-none u-text-palette-3-base u-btn-4" href="{{url_for('contact')}}">Contacts</a>
+                </h5>
+              </div>
+            </div>
+            <div id="carouseld" class="u-align-center u-border-2 u-border-palette-2-light-2 u-container-style u-group u-hover-feature u-palette-2-light-2 u-shape-circle u-group-5">
+              <div class="u-container-layout u-valign-middle u-container-layout-5">
+                <h5 class="u-hover-feature u-text u-text-default u-text-palette-2-base u-text-8">
+                  <a class="u-active-none u-border-none u-btn u-button-link u-button-style u-hover-none u-none u-text-palette-2-base u-btn-5" href="{{url_for('projects')}}">Projects</a>
+                </h5>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
 
-		<!-- Wrapper -->
-			<div id="wrapper">
+      <div id="skill" class="col-lg-8 col-md-10 mx-auto">
+        <img width=120px style="border-radius:50px" src="static/images/ninjacode.png"><h2><u>My Skills</u></h2>
 
-				<!-- Intro -->
-					<section class="intro">
-						<header>
-							<img id="photoimg" src="static/images/ugonna.png" alt="" />
-							<h3>{{ ugo }}</h3>
-							<ul class="actions">
-								<li><a href="#first" class="arrow scrolly"><span class="label">Next</span></a></li>
-							</ul>
-						</header>
-					</section>
+          <div class="textwraps">
+                <h3 style="margin-bottom:5px">Languages <img width=30px src="static/images/pythonlogo.png">
+                <img width=100px src="static/images/hjclogo.jpg"></h3><br>
+                <h4>I have worked extensively with Python in areas of Data Analysis and Game Development
+                  and I have worked with Javascript, HTML5 and CSS in web development.</h4>
+            </div>
 
-				<!-- Section -->
-					<section id="first">
-						<header>
-							<h2>Magna sed nullam nisl adipiscing</h2>
-						</header>
-						<div class="content">
-							<p><strong>Lorem ipsum dolor</strong> sit amet consectetur adipiscing elit. Duis dapibus rutrum facilisis. Class aptent taciti sociosqu ad litora torquent per conubia nostra, per inceptos himenaeos. Etiam tristique libero eu nibh porttitor amet fermentum. Nullam venenatis erat id vehicula ultrices sed ultricies condimentum. Magna sed etiam consequat, et lorem adipiscing sed nulla. Volutpat nisl et tempus et dolor libero, feugiat magna tempus, sed et lorem adipiscing.</p>
-							<span class="image main"><img src="static/images/pic02.jpg" alt="" /></span>
-						</div>
-					</section>
+            <div class="textwraps">
+                <h3>Frameworks <img width=50px src="static/images/bootstraplogo.png"> <img width=40px src="static/images/flasklogo.png"> <img width=100px src="static/images/jinjalogos.png"></h3>
+                <h4>I have worked with the above frameworks in my various projects. Flask and Jinja has been the basis of my backend projects</h4>
+            </div>
 
-				<!-- Section -->
-					<section>
-						<header>
-							<h2>Feugiat consequat tempus ultrices</h2>
-						</header>
-						<div class="content">
-							<p><strong>Etiam tristique libero</strong> eu nibh porttitor amet fermentum. Nullam venenatis erat id vehicula ultrices sed ultricies condimentum.</p>
-							<ul class="feature-icons">
-								<li class="icon solid fa-laptop">Consequat tempus</li>
-								<li class="icon solid fa-bolt">Etiam adipiscing</li>
-								<li class="icon solid fa-signal">Libero nullam</li>
-								<li class="icon solid fa-cog">Blandit condimentum</li>
-								<li class="icon solid fa-map-marker-alt">Lorem ipsum dolor</li>
-								<li class="icon solid fa-code">Nibh amet venenatis</li>
-							</ul>
-							<p>Vehicula ultrices sed ultricies condimentum. Magna sed etiam consequat, et lorem adipiscing sed nulla. Volutpat nisl et tempus et dolor libero, feugiat magna tempus, sed et lorem adipiscing.</p>
-						</div>
-					</section>
+            <div class="textwraps">
+                <h3>Tools <img width=70px src="static/images/beautifulsouplogo.png"> <img width=50px src="static/images/gitlogo.png"> <img width=70px src="static/images/seleniumlogo.png"> <img width=70px src="static/images/jquerylogo.png"></h3>
+                <h4>I have worked with the above tools in my various projects, Especially in the areas of webscraping</h4>
+            </div>
 
-				<!-- Section -->
-					<section>
-						<header>
-							<h2>Ultrices erat magna sed condimentum</h2>
-						</header>
-						<div class="content">
-							<p><strong>Integer mollis egestas</strong> nam maximus erat id euismod egestas. Pellentesque sapien ac quam. Lorem ipsum dolor sit nullam.</p>
 
-							<!-- Section -->
-								<section>
-									<header>
-										<h3>Erat aliquam</h3>
-										<p>Vehicula ultrices dolor amet ultricies et condimentum. Magna sed etiam consequat, et lorem adipiscing sed dolor sit amet, consectetur amet do eiusmod tempor incididunt  ipsum suspendisse ultrices gravida.</p>
-									</header>
-									<div class="content">
-										<div class="gallery">
-											<a href="static/images/gallery/fulls/01.jpg" class="landscape"><img src="static/images/gallery/thumbs/01.jpg" alt="" /></a>
-											<a href="static/images/gallery/fulls/02.jpg"><img src="static/images/gallery/thumbs/02.jpg" alt="" /></a>
-											<a href="static/images/gallery/fulls/03.jpg"><img src="static/images/gallery/thumbs/03.jpg" alt="" /></a>
-											<a href="static/images/gallery/fulls/04.jpg" class="landscape"><img src="static/images/gallery/thumbs/04.jpg" alt="" /></a>
-										</div>
-									</div>
-								</section>
+            <div class="textwraps">
+                <h3>Databases <img width=40px src="static/images/postgrelogo.png"> <img width=40px src="static/images/sqlitelogo.jpg"></h3>
+                <h4>These databases are important if you are going to be working with flask and whilst postgreSQL is the most popular opensource database, I have worked with
+        Postgres when deploying a website to an external server and sqlite when working with a local server, I have extensive knowledge working with both database</h4>
+            </div>
 
-							<!-- Section -->
-								<section>
-									<header>
-										<h3>Nisl consequat</h3>
-										<p>Aenean ornare velit lacus, ac varius enim ullamcorper eu. Proin aliquam sed facilisis ante interdum congue. Integer mollis, nisl amet convallis, porttitor magna ullamcorper, amet mauris. Ut magna finibus nisi nec lacinia ipsum maximus.</p>
-									</header>
-									<div class="content">
-										<div class="gallery">
-											<a href="static/images/gallery/fulls/05.jpg" class="landscape"><img src="static/images/gallery/thumbs/05.jpg" alt="" /></a>
-											<a href="static/images/gallery/fulls/06.jpg"><img src="static/images/gallery/thumbs/06.jpg" alt="" /></a>
-											<a href="static/images/gallery/fulls/07.jpg"><img src="static/images/gallery/thumbs/07.jpg" alt="" /></a>
-										</div>
-									</div>
-								</section>
+        </div>
 
-							<!-- Section -->
-								<section>
-									<header>
-										<h3>Lorem gravida</h3>
-										<p>Proin aliquam facilisis ante interdum. Sed nulla amet lorem feugiat tempus aenean ornare velit lacus, ac varius sed enim lorem ullamcorper dolore.  ac varius enim lorem ullamcorper dolore. Proin aliquam facilisis.</p>
-									</header>
-									<div class="content">
-										<div class="gallery">
-											<a href="static/images/gallery/fulls/08.jpg" class="portrait"><img src="static/images/gallery/thumbs/08.jpg" alt="" /></a>
-											<a href="static/images/gallery/fulls/09.jpg" class="portrait"><img src="static/images/gallery/thumbs/09.jpg" alt="" /></a>
-											<a href="static/images/gallery/fulls/10.jpg" class="landscape"><img src="static/images/gallery/thumbs/10.jpg" alt="" /></a>
-										</div>
-									</div>
-								</section>
+    </div>
 
-						</div>
-					</section>
+      </body>
 
-				<!-- Section -->
-					<section>
-						<header>
-							<h2>Duis sed adpiscing veroeros amet</h2>
-						</header>
-						<div class="content">
-							<p><strong>Proin tempus feugiat</strong> sed varius enim lorem ullamcorper dolore aliquam aenean ornare velit lacus, ac varius enim lorem ullamcorper dolore.</p>
-							<ul class="actions">
-								<li><a href="#" class="button primary large">Get Started</a></li>
-								<li><a href="#" class="button large">Learn More</a></li>
-							</ul>
-						</div>
-					</section>
-
-					<section>
-						<header>
-							<h2>Get in touch</h2>
-						</header>
-						<div class="content">
-							<p><strong>Auctor commodo</strong> interdum et malesuada fames ac ante ipsum primis in faucibus. Pellentesque venenatis dolor imperdiet dolor mattis sagittis.</p>
-							<form>
-								<div class="fields">
-									<div class="field half">
-										<input type="text" name="name" id="name" placeholder="Name" />
-									</div>
-									<div class="field half">
-										<input type="email" name="email" id="email" placeholder="Email" />
-									</div>
-									<div class="field">
-										<textarea name="message" id="message" placeholder="Message" rows="7"></textarea>
-									</div>
-								</div>
-								<ul class="actions">
-									<li><input type="submit" value="Send Message" class="button primary" /></li>
-								</ul>
-							</form>
-						</div>
-						<footer>
-							<ul class="items">
-								<li>
-									<h3>Email</h3>
-									<a href="#">information@untitled.ext</a>
-								</li>
-								<li>
-									<h3>Phone</h3>
-									<a href="#">(000) 000-0000</a>
-								</li>
-								<li>
-									<h3>Address</h3>
-									<span>1234 Somewhere Road, Nashville, TN 00000</span>
-								</li>
-								<li>
-									<h3>Elsewhere</h3>
-									<ul class="icons">
-										<li><a href="#" class="icon brands fa-twitter"><span class="label">Twitter</span></a></li>
-										<li><a href="#" class="icon brands fa-facebook-f"><span class="label">Facebook</span></a></li>
-										<li><a href="#" class="icon brands fa-instagram"><span class="label">Instagram</span></a></li>
-										<li><a href="#" class="icon brands fa-linkedin-in"><span class="label">LinkedIn</span></a></li>
-										<li><a href="#" class="icon brands fa-github"><span class="label">GitHub</span></a></li>
-										<li><a href="#" class="icon brands fa-codepen"><span class="label">Codepen</span></a></li>
-									</ul>
-								</li>
-							</ul>
-						</footer>
-					</section>
-
-				<!-- Copyright -->
-					<div class="copyright">Copyright &copy; Ugonna's Website {{year}}</div>
-
-		<!-- Scripts -->
-			<script src="static/assets/js/jquery.min.js"></script>
-			<script src="static/assets/js/jquery.scrolly.min.js"></script>
-			<script src="static/assets/js/browser.min.js"></script>
-			<script src="static/assets/js/breakpoints.min.js"></script>
-			<script src="static/assets/js/util.js"></script>
-			<script src="static/assets/js/main.js"></script>
-
-	</body>
-</html>
-
-{% include 'footer.html'%}
+{% include 'footer.html' %}
